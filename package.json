@@ -1,0 +1,32 @@
+{
+  "name": "a-event-emitter",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "dependencies": {
+    "mixto": "",
+    "emissary": "",
+    "a-event-methods": "",
+    "a-event-property": "",
+    "a-event-namespace": ""
+  },
+  "devDependencies": {
+    "kosher": ""
+  },
+  "description": "A Event Emitter",
+  "keywords": [
+    "a",
+    "event",
+    "emitter"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/a-event-emitter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/a-event-emitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/a-event-emitter/issues"
+  }
+}
